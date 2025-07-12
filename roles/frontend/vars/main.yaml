@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.saijyo.store
-USER_HOST: user.saijyo.store
-CART_HOST: cart.saijyo.store
-SHIPPING_HOST: shipping.saijyo.store
-PAYMENT_HOST: payment.saijyo.store
+CATALOGUE_HOST: catalogue.backend-{{ env }}.saijyo.store
+USER_HOST: user.backend-{{ env }}.saijyo.store
+CART_HOST: cart.backend-{{ env }}.saijyo.store
+SHIPPING_HOST: shipping.backend-{{ env }}.saijyo.store
+PAYMENT_HOST: payment.backend-{{ env }}.saijyo.store

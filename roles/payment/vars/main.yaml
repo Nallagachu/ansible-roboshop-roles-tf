@@ -1,5 +1,5 @@
-CART_HOST: cart.saijyo.store
-USER_HOST: user.saijyo.store
-RABBITMQ_HOST: rabbitmq.saijyo.store
+CART_HOST: cart.backend-{{ env }}.saijyo.store
+USER_HOST: user.backend-{{ env }}.saijyo.store
+RABBITMQ_HOST: rabbitmq-{{ env }}.saijyo.store
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123

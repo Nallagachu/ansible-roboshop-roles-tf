@@ -3,12 +3,12 @@
     name: common
     tasks_from: app-setup
 
-- name: python setup
+- name: nodejs setup
   include_role:
     name: common
-    tasks_from: python
+    tasks_from: nodejs
 
 - name: systemd setup
   include_role:
     name: common
-    tasks_from: systemd
+    tasks_from: systemd.yaml

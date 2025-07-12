@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.saijyo.store
-REDIS_HOST: redis.saijyo.store
+CATALOGUE_HOST: catalogue.backend-{{ env }}.saijyo.store
+REDIS_HOST: redis-{{ env }}.saijyo.store
