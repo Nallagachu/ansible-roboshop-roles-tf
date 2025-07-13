@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.saijyo.store
+MONGODB_HOST: "mongodb-{{ env }}.saijyo.store"

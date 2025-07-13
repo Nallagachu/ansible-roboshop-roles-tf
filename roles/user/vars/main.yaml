@@ -1,2 +1,2 @@
-REDIS_HOST: redis.saijyo.store
-MONGODB_HOST: mongodb.saijyo.store
+REDIS_HOST: redis-{{ env }}.saijyo.store
+MONGODB_HOST: mongodb-{{ env }}.saijyo.store
